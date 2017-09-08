@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="example.com.mycustomview">
+
+    <application
+        android:name=".application.BaseApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BasicCustomViewActivity" />
+        <activity android:name=".viewActivity.basicActivity.DrawcoordinateActivity" />
+        <activity android:name=".viewActivity.basicActivity.BasicCustomView2" />
+        <activity android:name=".viewActivity.basicActivity.BasicCustomView1" />
+        <activity android:name=".viewActivity.basicActivity.DrawArgbActivity" />
+        <activity android:name=".viewActivity.basicActivity.DrawTextViewActivity" />
+        <activity android:name=".viewActivity.basicActivity.DrawPointActivity" />
+        <activity android:name=".viewActivity.basicActivity.DrawLineActivity" />
+        <activity android:name=".viewActivity.basicActivity.DrawRectActivity" />
+        <activity android:name=".viewActivity.basicActivity.DrawCircleActivity" />
+        <activity android:name=".viewActivity.basicActivity.DrawOvalActivity" />
+        <activity android:name=".viewActivity.basicActivity.DrawArcActivity" />
+        <activity android:name=".viewActivity.basicActivity.DrawPathActivity" />
+        <activity android:name=".viewActivity.basicActivity.DrawPath2Activity" />
+        <activity android:name=".viewActivity.basicActivity.DrawBitmapActivity" />
+        <activity android:name=".viewActivity.basicActivity.DrawScaleActivity" />
+        <activity android:name=".viewActivity.basicActivity.DrawRotateActivity" />
+        <activity android:name=".viewActivity.basicActivity.DrawSkewActivity" />
+        <activity android:name=".viewActivity.basicActivity.DrawPathBezierActivity" />
+        <activity android:name=".viewActivity.basicActivity.DrawPathMeasureActivity" />
+        <activity android:name=".viewActivity.basicActivity.DrawRegionActivity" />
+        <activity android:name=".viewActivity.basicActivity.SurfaceViewActivity" />
+        <activity android:name=".viewActivity.basicActivity.bezierActivity.DrawPathBezier2OrderActivity" />
+        <activity android:name=".viewActivity.basicActivity.bezierActivity.DrawPathBezier3OrderActivity" />
+        <activity android:name=".viewActivity.basicActivity.bezierActivity.DrawPathBezierCircleHeartActivity" />
+        <activity android:name=".viewActivity.basicActivity.bezierActivity.DrawPathLineBezierActivity" />
+        <activity android:name=".viewActivity.basicActivity.DragViewHelperActivity" />
+        <activity android:name=".viewActivity.complexActivity.DrawWaveActivity" />
+        <activity android:name=".viewActivity.complexActivity.DrawSearchViewPathActivity" />
+        <activity android:name=".viewActivity.complexActivity.DrawMatrixBitmapActivity" />
+        <activity android:name=".viewActivity.complexActivity.ZoomImageViewActivity" />
+        <activity android:name=".viewActivity.complexActivity.GuesterLockActivity" />
+        <activity android:name=".viewActivity.complexActivity.ColorActivity" />
+        <activity android:name=".ComplexCostomActivity" />
+        <activity android:name=".viewActivity.complexActivity.matrixColor.PrimaryActivity" />
+        <activity android:name=".viewActivity.complexActivity.matrixColor.ColorMatrixActivity" />
+        <activity android:name=".viewActivity.complexActivity.matrixColor.PixelsEffect" />
+        <activity android:name=".CustomControlActivity" />
+        <activity
+            android:name=".viewActivity.customControlActivity.DrawLayout.DrawlayoutActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".viewActivity.customControlActivity.SlideDrawLayout.SlidDrawlayoutActivity"
+
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!-- <activity android:name=".ComplexCostomActivity"/> -->
+        <!-- <activity android:name=".viewActivity.DrawqqmessageActivity"/> -->
+        <!-- <activity android:name=".viewActivity.ScrollViewComplictActivity"/> -->
+
+    </application>
+
+</manifest>

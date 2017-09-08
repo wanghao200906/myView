@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/btn_basic_customview1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="自定义view基础系列1" />
+
+            <Button
+                android:id="@+id/btn_basic_customview2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="自定义view基础系列2" />
+
+            <Button
+                android:id="@+id/btn_axisview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/axic_view" />
+
+
+            <Button
+                android:id="@+id/btn_argbview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="绘制RGB" />
+
+            <Button
+                android:id="@+id/btn_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="绘制文字" />
+
+            <Button
+                android:id="@+id/btn_pointview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="绘制点" />
+
+            <Button
+                android:id="@+id/btn_lineview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="绘制线" />
+
+            <Button
+                android:id="@+id/btn_rectview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="绘制rect" />
+
+            <Button
+                android:id="@+id/btn_circletview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="绘制circle" />
+
+            <Button
+                android:id="@+id/btn_ovaltview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="绘制oval" />
+
+            <Button
+                android:id="@+id/btn_arctview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="绘制arc" />
+
+            <Button
+                android:id="@+id/btn_pathview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="绘制path" />
+
+            <Button
+                android:id="@+id/btn_pathview2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="绘制path2" />
+
+            <Button
+                android:id="@+id/btn_pathmeasure"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="绘制pathmeasure" />
+
+            <Button
+                android:id="@+id/btn_pathbezierview1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="绘制贝塞尔曲线path1" />
+
+            <Button
+                android:id="@+id/btn_bitmapview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="绘制Bitmap" />
+
+            <Button
+                android:id="@+id/btn_scaleview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="绘制scale" />
+
+            <Button
+                android:id="@+id/btn_rotateview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="绘制rotate" />
+
+            <Button
+                android:id="@+id/btn_skewview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="绘制skew" />
+
+            <Button
+                android:id="@+id/btn_regionview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="绘制region" />
+
+            <Button
+                android:id="@+id/btn_surfaceview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="surfaceView" />
+
+            <Button
+                android:id="@+id/btn_dragviewhelper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="dragviewhelper" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

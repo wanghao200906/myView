@@ -1,0 +1,15 @@
+<example.com.mycustomview.viewActivity.customControlActivity.SlideDrawLayout.SlidingDrawLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/slideMenu1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- 菜单界面的布局 -->
+
+    <include layout="@layout/layout_slide" />
+
+    <!-- 主界面的布局 -->
+
+    <include layout="@layout/layout_slidey_main" />
+
+</example.com.mycustomview.viewActivity.customControlActivity.SlideDrawLayout.SlidingDrawLayout>
+
